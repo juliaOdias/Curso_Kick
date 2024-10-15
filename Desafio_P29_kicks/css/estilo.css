@@ -1,0 +1,95 @@
+:root{
+    --color_01: #ff5593;
+    --color_02: #07afe8;
+    --c_white: #ffffff;
+    --c_gray: #f1f1f1; 
+}
+
+body{
+    background-image: url("../img/bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+table{
+    background-color: var(--c_white);
+    margin: auto;
+    width: 100%;
+}
+.navbar {
+    background-color: var(--c_gray);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_button {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.navbar_links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none; 
+}
+
+.navbar_links.active {
+    display: flex; 
+    flex-direction: column;
+}
+
+.navbar_links li {
+    margin-bottom: 10px;
+}
+
+.navbar_links li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#content {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid var(--c_gray);
+}
+
+#image_box {
+    width: 450px;
+}
+
+#image_box img{
+    width: 100%;
+}
+
+.article_box{
+    padding: 10px;
+}
+.sorvete{
+    padding: 15px;
+    font-size: 18px;
+    text-align: justify;
+    border-top: 8px solid var(--color_01);
+    
+}
+
+.article_box p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.article_box h2{
+    border-top: 8px solid var(--color_01);
+    background-color: var(--c_gray);
+    padding: 10px;
+}
+
+#footer_box{
+    border-top: 8px solid var(--color_01);
+    background-color: var(--c_gray);
+    text-align: center;
+    height: 50px;
+}
