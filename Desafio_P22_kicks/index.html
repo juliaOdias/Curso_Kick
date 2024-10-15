@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Formulário</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/validacao.js"></script>
+    </head>
+
+    <body>
+        <div class="main">
+            <div id="form_box">
+                <h2>Ficha Anamnese</h2>
+                <form action="">
+                    
+                    <div class="f_line">
+                        <span>
+                            <label>Nome</label>
+                            <input type="text" id="i_nome" required>
+                        </span>
+
+                        <span>
+                            <label>Sobrenome</label>
+                            <input type="text" id="i_sobrenome" required>
+                        </span>
+                    </div>
+                    
+                    <div class="f_line">
+                        <span>
+                            <label>Data de nascimento</label>
+                            <input type="date" id="i_data" required>
+                        </span>
+                    </div>
+                    <div class="f_line">
+                        <span>
+                            <label>Gênero</label>
+
+                            Feminino
+                            <input type="radio" name="i_genero" checked>
+                            Masculino
+                            <input type="radio" name="i_genero">
+                            Outros
+                            <input type="radio" name="i_genero">
+                        </span>
+                    </div>
+
+                    <div class="f_line">
+                        <span>
+                            <label>Objetivo</label>
+                            <select>
+                                <option>Emagrecimento</option>
+                                <option>Hipertrofia</option>
+                                <option>Saúde</option>
+                            </select>
+                        </span>
+                        
+                    </div>
+                    <div class="f_line">
+                        <span>
+                            <label>Peso</label>
+                            <input type="number" id="i_peso" required>
+                        </span>
+                        <span>
+                            <label>Altura</label>
+                            <input type="number" id="i_altura" required>
+                        </span>
+                    </div>
+                    <div class="f_line">
+                        <span>
+                            <label>Frequencia X Semana</label>
+                            <input type="number" id="i_peso" required>
+                        </span>
+                        <span>
+                            <label>Acompanhamento nutricional</label>
+                            <select>
+                                <option>Sim</option>
+                                <option>Não</option>
+                            </select>
+                        </span>
+                    </div>
+                    <div class="f_line">
+                        <span>
+                            <input type="submit" id="btt_form" value="Cadastrar">
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>
